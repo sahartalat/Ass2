@@ -1,0 +1,40 @@
+#include <iostream>
+
+using namespace std;
+
+Class Node{
+Public:
+       Char data;
+        Node* next;
+};
+
+int main(){
+     Node*head= Null;
+     Node*second= Null;
+     Node*third= Null;
+     Node*fourth= Null;
+     Node* fifth= Null;
+     
+     
+     head= new Node();
+     second  = new Node();
+     third = new Node();
+     fourth = new Node();
+     fifth = new Node();
+
+head->data = "S";
+head ->next” second;
+
+second->data = "A";
+second->next “ third;
+
+third->data = "H";
+third->next” fourth;
+
+fourth=> = "A";
+fourth->next” fifth;
+
+fifth->data = "R";
+fifth->next” Null;
+return 0,
+}
